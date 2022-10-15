@@ -10,4 +10,4 @@ function func1(a, b) {
 
   }
   
-  func1('je', 'suis', 'solide');
+  func1('je', 'suis', 'solide', '!');
