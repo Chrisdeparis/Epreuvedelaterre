@@ -2,9 +2,9 @@
 let string = '';
 const alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 let number = alphabet.length;
-// récupérer l'argument de la lettre ligne de commande
+// récupérer valeur lettre donnée en argument
 let args = process.argv.slice(2).toString().slice(0,1);
-console.log(args);
+// console.log(args);
  function func1(){
     // console.log(arguments[0]);
     // determiner la position de l'argument dans l'array 
@@ -13,7 +13,7 @@ console.log(args);
     for(let i=position; i<number; i++) {
         string += alphabet[i];
     }
-    console.log(string);
+    console.log(string+'\n');
  }
  func1(args);
 
