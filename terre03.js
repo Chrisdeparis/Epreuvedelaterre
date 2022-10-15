@@ -8,7 +8,6 @@ function func1(a, b) {
         console.log(arguments[i])
     }
 
-    // expected output: 3
   }
   
-  func1('je', 'suis', 'solide', 'fort');
+  func1('je', 'suis', 'solide');
