@@ -12,7 +12,7 @@ function func1() {
     let numberObject = new Number(args);
     let value = numberObject.valueOf();
 
-    if(isNaN( value)){
+    if(isNaN(value)){
         console.log(answer = 'Tu ne me la mettras pas à l’envers.');
     } 
 
@@ -21,16 +21,13 @@ function func1() {
         return;
     }
     
-    if(value%2 == 0  ){
-        
+    if(value%2 == 0  ){ 
         console.log(ansNum ='pair');
     } 
     
     if(value%2 == 1 || value%2 == -1 ){
         console.log(ansNum ='impair');
     }
-
-     
 }
     
 
