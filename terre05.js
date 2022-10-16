@@ -14,18 +14,15 @@ function func1() {
 
     if(isNaN( value)){
         console.log(answer = 'Tu ne me la mettras pas à l’envers.');
-    } else {
-        console.log(ansNum = '');
-    }
+    } 
 
     if(value == 0) {
-        console.log(ansNum = '');
         console.log(answer = 'Tu ne me la mettras pas à l’envers.');
         return;
     }
     
     if(value%2 == 0  ){
-        console.log(answer = '');
+        
         console.log(ansNum ='pair');
     } 
     
