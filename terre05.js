@@ -29,7 +29,7 @@ function func1() {
         console.log(ansNum ='pair');
     } 
     
-    if(value%2 == 1){
+    if(value%2 == 1 || value%2 == -1 ){
         console.log(ansNum ='impair');
     }
 
