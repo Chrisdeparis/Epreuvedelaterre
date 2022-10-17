@@ -3,6 +3,7 @@
 let args = process.argv.slice(2);
 let number = new Number(args);
 let value = number.valueOf();
+let string = args.toString(); 
 
 function func1() {
     console.log(!isNaN(value));
@@ -48,8 +49,10 @@ function func1() {
         } 
         
         (estpremier(value));
-        console.log('Veuillez passez un nombre entier naturel');
+        
 
+    } else {
+        console.log('Veuillez passez un nombre entier naturel');
     }
 }
 
