@@ -6,7 +6,7 @@ let value = number.valueOf();
 let string = args.toString(); 
 
 function func1() {
-    console.log(!isNaN(value));
+    // console.log(!isNaN(value));
     if(!isNaN(value)){
         //formule nombre premier
         function estpremier(n) {
