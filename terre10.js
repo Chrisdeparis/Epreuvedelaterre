@@ -5,8 +5,8 @@ let number = new Number(args);
 let valueN = number.valueOf();
 let string = args.toString();   
 let valueS = string.valueOf();
+
 function func1() {
-    
     if(valueN > 0) {
         // console.log('entier positif');
         // racine carré
@@ -23,7 +23,6 @@ function func1() {
     } else {
         console.log('entier négatif');
     }
-
 }
 
 func1(args);

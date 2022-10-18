@@ -13,8 +13,6 @@ function func1(){
     } else {
         console.log('L’exposant ne pourra pas être négatif.');
     }
-    
-
 }
 
 func1(args);
