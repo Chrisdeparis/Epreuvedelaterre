@@ -17,7 +17,7 @@ function func1(){
         let reponse = ('J’ai terminé l’Épreuve de la Terre et c’était '+ args+'! 😎😎');
         console.log(reponse);
     } else {    
-        let reponse = ('J’ai terminé l’Épreuve de la Terre et c’était '+ args.toString()+'! 😎😎');
+        let reponse = ('J’ai terminé l’Épreuve de la Terre et c’était '+ args+'! 😎😎');
         console.log(reponse);
     }
 }
