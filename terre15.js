@@ -19,9 +19,7 @@ function func1(){
     check(args);
     // verif si c'est trié
     function is_sorted(args) {
-        let reponse='';
         for (let i = 0; i <=args.length - 1; ++i) {
-            let checkInt = Number.isInteger(args[i]).valueOf();
             // console.log(checkInt);
             if(args[i] - args[i-1] < 0) {
                 console.log('Pas triée !');
